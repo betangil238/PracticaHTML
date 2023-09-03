@@ -1,0 +1,270 @@
+<!-- trabajando el html -->
+<!DOCTYPE html>
+<!-- Especificamos el lenguaje a usar -->
+<html lang="en">
+    <!-- Esta es la ruta de los archivos externos -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- https://boxicons.com/ -->
+    <!-- fonts.google.com/icons -->
+    <title>NatureDesing</title>
+    <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA4ElEQVRIS2NkoDFgpLH5DKMWEAxhUoLoP5ppROklShHUYJpZIAC04AMQY7NAASj+AF844fMByOB6IE4AYkEcFoAsnQDEhbgswWfBfKjhIL0gddh8ABM7AJR3xGYJLgsKgIr7kTQQsgCkFKtPsFkACpr7QAyiYYAYC0BqFdHjBJsFDdCwR/YxsRYsAGpKRNeIHnTrgQIBuCKNgPgFoLwhIQtAwaNApgWg5AxKcShhi24Wemoh1S6UYMcWB0PXAkpdjh6U4NBBDiKaW0BqZBKlnpTimigDsYYTWTqJ1ERzHwAA61oiGaoevssAAAAASUVORK5CYII="/> -->
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="stylesheet" href="Practica1/css/sytles.css">
+</head>
+<body>
+    <!-- <i class='bx bxs-hard-hat'></i> -->
+    <header class="hero">
+        <nav class="nav_hero">
+            <div class="container nav_container">
+                <div class="logo">
+                    <a href="https://www.youtube.com/channel/UCc0O8Cx3VWwFf3hUGQUct0w" class="logo__name">
+                        Daniel Design <span class="point">.</span>
+                    </a>
+                </div>
+                <div class="links">
+                    <a href="/index.html" class="link">Inicio</a>
+                    <a href="portafolio.html" class="link">Portafolio</a>
+                    <a href="#servicios" class="link">Servicios</a>
+                    <a href="#proyectos" class="link">Proyectos</a>
+                    <a href="#clientes" class="link">Clientes</a>
+                    <a href="#contacto" class="link link--active">Contacto</a>
+                </div>
+            </div>
+        </nav>
+        <section class="container hero_main" id="inicio">
+            <div class="hero_textos">
+                <h1 class="title">Construyendo hogares <span class="title--active">conectados con la naturaleza</span></h1>
+                <p class="copy">Nos encargamos de llevar tus sueños <span class="copy_active">a la realidad</span></p>
+                <a class="cta"   href="#cita">Agenda tu cita</a>
+            </div>
+            <img src="/Practica1/img/1.png" class="mockup" alt="yourhome">
+        </section>
+    </header>
+    <!-- contenido principal -->
+    <main>
+        <section class="services" id="servicios">
+            <div class="container">
+                <h2 class="Subtitle_Services">Nuestros servicios<span class="point">.</span></h2>
+                <p class="copy_section">Ofrecemos las soluciones perfectas para tu comodidad</p>
+            <!-- especifica que creara un contenedor para los articulos de los servicios -->
+                <article class="container-cards">
+                    <div class="card">
+                        <img src="/Practica1/img/2.png" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Especialistas en construccion sostenible</p>
+                            <h3 class="card__title">Natural designs <span class="point">.</span></h3>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Inventore natus officiis blanditiis quis vero ipsa quia, autem doloremque.</p>
+                            <a href="#" class="card__button">Comienza tu proyecto</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Practica1/img/8.png" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Especialistas en cocinas</p>
+                            <h3 class="card__title">Cocinas integradas <span class="point">.</span></h3>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Inventore natus officiis blanditiis quis vero ipsa quia, autem doloremque.</p>
+                            <a href="#" class="card__button">Sueña tu cocina</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Practica1/img/3.png" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Habitaciones a tus gustos</p>
+                            <h3 class="card__title">Sientete libre<span class="point">.</span></h3>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Inventore natus officiis blanditiis quis vero ipsa quia, autem doloremque.</p>
+                            <a href="#" class="card__button">Vamos a soñar</a>   
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="projectscontainer" id="proyectos">
+            <div class="container">
+                <h2 class="subtitle">proyectos recientes <span class="punto">.</span> </h2>
+                <p class="copy__section">Hemos colaborado con marcas reconocida a nivel mundial</p>
+                <article class="container-bg">
+                    <div class="card">
+                        <div class="cards__text">
+                            <h3 class="card__title">Diseño de casas <span class="point">.</span></h3>
+                            <p class="card__date">24 de Agosto 2023</p>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit.Corporis sint ex dolores quasi esse nisi officia consequatur, soluta ab, nam eligendi.</p>
+                            <a href="#" class="card__button">Comienza tu proyecto</a>
+                        </div>
+                    </div>
+                    <div class="background">
+                        <img src="/Practica1/img/4.png" class="background__img">
+                        <div class="background__text">
+                            <h3 class="background__title">Diseño adaptado a la naturaleza</h3>
+                            <p class="background_copy">La posibilidad de vivir en un entorno rodeado de naturaleza</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cards__text">
+                            <h3 class="card__title">Diseño de espacios <span class="point">.</span></h3>
+                            <p class="card__date">24 de Agosto 2023</p>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit.Corporis sint ex dolores quasi esse nisi officia consequatur, soluta ab, nam eligendi.</p>
+                            <a href="#" class="card__button">Comienza tu proyecto</a>
+                        </div>
+                    </div>
+                    <div class="background">
+                        <img src="/Practica1/img/6.png" class="background__img">
+                        <div class="background__text">
+                            <h3 class="background__title">Diseño adaptado a tus gustos</h3>
+                            <p class="background_copy">La posibilidad de soñar y trabajar como quieras</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- seccion de testimonios -->
+        <section class="testimony" id="clientes">
+            <div class="container">
+                <h2 class="subtitle"> Clientes satisfechos<span class="point">.</span></h2>
+                <p id="copy__section">Cientos de empresas confian en nosotros</p>
+                
+                <div class="testimony-container">
+                    <div class="testimony__card">
+                        <img src="/Practica1/img/5.png" class="testimony_img">
+                        <div class="testimony__copy">
+                            <i class="bx bxl-google testimony_logo"></i>
+                            <div class="testimony__info">
+                                <h3 class="testimony__name">Andres Garcia</h3>
+                                <p class="testimony__position">Director google</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimony__card">
+                        <img src="/Practica1/img/7.png" class="testimony_img">
+                        <div class="testimony__copy">
+                            <i class='bx bxl-apple' ></i>
+                            <div class="testimony__info">
+                                <h3 class="testimony__name">Santiago jimenez</h3>
+                                <p class="testimony__position">Director apple</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimony__card">
+                        <div class="testimony_text">
+                            <img src="/Practica1/img/icons8-logo-de-google.svg" class="google__logo">
+                            <p class="testimony__history">Desde que empezamos a trabajar con NatureDesign comenzamos a obtener resultados increibles. Ahora mi vida es tal cual la soñe</p>
+                            <div class="testimony__copy testimony--modifier">
+                                <img src="/Practica1/img/5.png" class="testimony__logo logo--picture">
+                                <div class="testimony__info">
+                                    <h3 class="testimony__name">Gabriela Aguiar</h3>
+                                    <p class="testimony__position">Directora de Google Mexico</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seccion de envio de email mediante un boton comienza hoy -->
+        <section class="email container container--modifier" id="contacto">
+            <h2 class="subtitle subtitle--modifier">Somos tu mejor opción para adoptar la transformación digital<span class="point">.</span></h2>
+            <p class="copy__section copy__section--modifier">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, et dolore id necessitatibus quibusdam rem accusamus fugiat doloremque voluptatibus eius!</p>
+            <div class="check">
+
+                <div class="check__item">
+                    <i class='bx bx-check' ></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+200</p>
+                        <p class="check__copy">Proyectos exitosos</p>
+                    </div>
+                </div>
+
+                <div class="check__item">
+                    <i class='bx bx-check' ></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+200</p>
+                        <p class="check__copy">Proyectos exitosos</p>
+                    </div>
+                </div>
+
+                <div class="check__item">
+                    <i class='bx bx-check' ></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+200</p>
+                        <p class="check__copy">Proyectos exitosos</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <form class="newsletter">
+                <input type="text" class="newsletter__input" placeholder="Ingresa tu email">
+                <input type="submit" class="newsletter__submit" value="Comienza hoy">
+            </form>
+        </section>
+    </main>
+    <!-- Zona de pie de pagina con links para descargar app y seccion trabaja con nosotros -->
+    <footer class="footer">
+        <!-- Contenedor que alberga la zona de descarga y trabaja con nosotros -->
+        <div class="container footer__caption">
+            <!-- Zona de descarga de aplicaciones -->
+            <section class="download">
+                <h3 class="title__footer">Descarga nuestra App</h3>
+                <div class="download__app">
+                    <div class="download__item">
+                        <i class='bx bxl-apple download__logo' ></i>
+                        <h4 class="download__title">App Store</h4>
+                    </div>
+                    <div class="download__item">
+                        <i class='bx bxl-play-store download__logo' ></i>
+                        <h4 class="download__title">Play Store</h4>
+                    </div>
+                </div>
+                <div class="footer__copy">
+                    <p class="copyright">DanielBG &copy; 2023 Todos los derechos reservados</p>
+                    <a href="#" class="politica__privacidad politica__privacidad--margin">Politica de privacidad</a>
+                    <a href="#" class="politica__privacidad ">Terminos y condiciones</a>
+                </div>
+            </section>
+            <!-- seccion trabaja con nosotros y redes sociales -->
+            <section class="get-email">
+                <h3 class="title__footer">¿Estás listo para trabajar con nosotros?</h3>
+                <form class="newsletter newsletter--modifier">
+                    <input type="text" class="newsletter__input" placeholder="Ingresa tu email">
+                    <input type="submit" class="newsletter__submit" value="Comienza hoy">
+                </form>
+                <div class="socialmedia">
+                    <p class="socialmedia__legend">Siguenos en:</p>
+                    <i class='socialmedia__icon bx bxl-facebook-circle'></i>
+                    <i class='socialmedia__icon bx bxl-linkedin-square'></i>                                                                                                        
+                    <i class='socialmedia__icon bx bxl-twitter' ></i>   
+                    <i class='socialmedia__icon bx bxl-instagram' ></i>
+                    <i class='socialmedia__icon bx bxl-github' ></i>  
+                </div>
+            </section>
+        </div>
+<!-- Parte inferior de la pagina donde se indica email, marca, zona de contacto -->
+        <div class="contact" id="cita">
+            <div class="item__contact">
+                <i class='bx bx-copyright contact__icon' ></i>
+                <h3 class="contact__title">DanielBG Design</h3>
+            </div>
+            <div class="item__contact">
+                <i class='bx bx-mail-send contact__icon' ></i>
+                <h3 class="contact__title">hola@Danieldesign</h3>
+            </div>
+            <div class="item__contact">
+                <i class='bx bxs-edit-location contact__icon' ></i>
+                <h3 class="contact__title">Paseos de la reforma</h3>
+            </div>
+            <div class="item__contact item__contact--gold">
+                <i class='bx bxs-chat contact__icon contact__icon--modifier' ></i>
+                <h3 class="contact__title">Contactanos ahora</h3>
+            </div>
+        </div>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </footer>
+</body>
+</html>

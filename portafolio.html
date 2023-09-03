@@ -1,0 +1,318 @@
+<!-- trabajando el html -->
+<!DOCTYPE html>
+<!-- Especificamos el lenguaje a usar -->
+<html lang="en">
+    <!-- Esta es la ruta de los archivos externos -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- https://boxicons.com/ -->
+    <!-- fonts.google.com/icons -->
+    <title>DanielBetancur</title>
+    <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA4ElEQVRIS2NkoDFgpLH5DKMWEAxhUoLoP5ppROklShHUYJpZIAC04AMQY7NAASj+AF844fMByOB6IE4AYkEcFoAsnQDEhbgswWfBfKjhIL0gddh8ABM7AJR3xGYJLgsKgIr7kTQQsgCkFKtPsFkACpr7QAyiYYAYC0BqFdHjBJsFDdCwR/YxsRYsAGpKRNeIHnTrgQIBuCKNgPgFoLwhIQtAwaNApgWg5AxKcShhi24Wemoh1S6UYMcWB0PXAkpdjh6U4NBBDiKaW0BqZBKlnpTimigDsYYTWTqJ1ERzHwAA61oiGaoevssAAAAASUVORK5CYII="/> -->
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="stylesheet" href="portafolio/css/sytles.css">
+</head>
+<body>
+    <!-- <i class='bx bxs-hard-hat'></i> -->
+    <header class="hero">
+        <nav class="nav_hero">
+            <div class="container nav_container">
+                <div class="logo">
+                    <a href="https://www.youtube.com/channel/UCc0O8Cx3VWwFf3hUGQUct0w" class="logo__name">
+                        Portafolio Daniel Betancur <span class="point">.</span>
+                    </a>
+                </div>
+                <div class="links">
+                    <a href="/index.html" class="link">Inicio</a>
+                    <a href="practica.html" class="link">Practica</a>
+                    <a href="#servicios" class="link">Proyectos</a>
+                    <a href="#proyectos" class="link">Emprendimiento</a>
+                    <a href="#clientes" class="link">Colaboraciones</a>
+                    <a href="#contacto" class="link link--active">Contacto</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="container hero_main" id="inicio">
+            <div class="hero_textos">
+                <h1 class="title">Haciendo que mis pasiones <span class="title--active">aporten a la sociedad</span></h1>
+                <p class="copy">Si la pasion te conduce, que la razon <span class="copy_active">tenga las riendas</span></p>
+                <a class="cta"   href="#cita">Contactame</a>
+            </div>
+            <img src="/portafolio/img/ingenieria.jpg" class="mockup" alt="yourhome">
+        </section>
+    </header>
+
+
+    <!-- contenido principal -->
+    <main>
+        <section class="services" id="servicios">
+            <div class="container">
+                <h2 class="Subtitle_Services">Proyectos realizados<span class="point">.</span></h2>
+                <p class="copy_section">Soluciones acorde a tus necesidades</p>
+            <!-- especifica que creara un contenedor para los articulos de los servicios -->
+                <article class="container-cards">
+                    <div class="card">
+                        <img src="/portafolio/img/encriptador.png" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Proyecto encriptador de codigo</p>
+                            <h3 class="card__title">Uso de HTML y CSS <span class="point">.</span></h3>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Inventore natus officiis blanditiis quis vero ipsa quia, autem doloremque.</p>
+                            <a href="https://betangil238.github.io/EncriptadorDeCodigo/" class="card__button">Observa el Proyecto</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/portafolio/img/hotelAlura.png" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Proyecto reservas de hotel</p>
+                            <h3 class="card__title">Uso de Java y JDBC <span class="point">.</span></h3>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Inventore natus officiis blanditiis quis vero ipsa quia, autem doloremque.</p>
+                            <a href="https://github.com/betangil238/ChallengeHotel" class="card__button">Observa el Proyecto</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/portafolio/img/guerraElementos.png" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Proyecto manipulacion del DOM</p>
+                            <h3 class="card__title">Juego interactivo<span class="point">.</span></h3>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Inventore natus officiis blanditiis quis vero ipsa quia, autem doloremque.</p>
+                            <a href="https://betangil238.github.io/GuerraDeElementos/" class="card__button">Observa el Proyecto</a>   
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="/portafolio/img/bosquesDeSauces.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Sector la Tablaza</p>
+                            <h3 class="card__title">Bosques de Sauces<span class="point">.</span></h3>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Inventore natus officiis blanditiis quis vero ipsa quia, autem doloremque.</p>
+                            <a href="https://centrosur.co/propiedades/proyecto-de-vivienda-la-estrella-bosques-de-sauces/" class="card__button">Observa el Proyecto</a>   
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="/portafolio/img/vivenza.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Sector Copacabana</p>
+                            <h3 class="card__title">Vivenza<span class="point">.</span></h3>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Inventore natus officiis blanditiis quis vero ipsa quia, autem doloremque.</p>
+                            <a href="https://centrosur.co/propiedades/vivenza-apartamentos-copacabana-apartamentos-no-vis/" class="card__button">Observa el Proyecto</a>   
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="/portafolio/img/morph.png" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Sector Poblado</p>
+                            <h3 class="card__title">Morph<span class="point">.</span></h3>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Inventore natus officiis blanditiis quis vero ipsa quia, autem doloremque.</p>
+                            <a href="https://morphmedellin.com/#/" class="card__button">Observa el Proyecto</a>   
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+        </section>
+
+        <section class="projectscontainer" id="proyectos">
+            <div class="container">
+                <h2 class="subtitle">Emprendimientos <span class="punto">.</span> </h2>
+                <p class="copy__section">Emprendimientos orientados a la enseñanza</p>
+                <article class="container-bg">
+                    <div class="card">
+                        <div class="cards__text">
+                            <h3 class="card__title">Resaltando la gastronomia  <span class="co">Co</span><span class="lom">lom</span><span class="biana">biana</span><span class="point">.</span></h3>
+                            <p class="card__date">20 Noviembre 2017</p>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit.Corporis sint ex dolores quasi esse nisi officia consequatur, soluta ab, nam eligendi.</p>
+                            <a href="https://www.youtube.com/channel/UCc0O8Cx3VWwFf3hUGQUct0w" class="card__button">Ver canal Youtube</a>
+                        </div>
+                    </div>
+                    <div class="background">
+                        <img src="/portafolio/img/Betapresenta.png" class="background__img">
+                        <div class="background__text">
+                            <h3 class="background__title">Aprende a cocinar un poco</h3>
+                            <p class="background_copy">Porque los mejores momentos se viven entorno a un plato</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cards__text">
+                            <h3 class="card__title">Aprendiendo a aprender <span class="point">.</span></h3>
+                            <p class="card__date">24 de Enero 2023</p>
+                            <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit.Corporis sint ex dolores quasi esse nisi officia consequatur, soluta ab, nam eligendi.</p>
+                            <a href="https://www.youtube.com/@Danielbeta" class="card__button">Ver canal Youtube</a>
+                        </div>
+                    </div>
+                    <div class="background">
+                        <img src="/portafolio/img/DANI EL BETA.png" class="background__img">
+                        <div class="background__text">
+                            <h3 class="background__title">Aprende todo lo que te propongas</h3>
+                            <p class="background_copy">Porque aprender solo es cuestion de querer</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- seccion de testimonios -->
+        <section class="testimony" id="clientes">
+            <div class="container">
+                <h2 class="subtitle">Entrevistas y participaciones<span class="point">.</span></h2>
+                <p id="copy__section">Haciendo parte de proyectos con empresas</p>
+                
+                <div class="testimony-container">
+                    <div class="testimony__card">
+                        <img src="/portafolio/img/la x.jpg" class="testimony_img">
+                        <div class="testimony__copy">
+                            <i class="bx bxl-google testimony_logo"></i>
+                            <div class="testimony__info">
+                                <h3 class="testimony__name">Entrevista la X</h3>
+                                <a href="https://clyp.it/g4khfud3?fbclid=IwAR01-YocAj3sJyvjnOUE1_-6eyQLZMjRuVgkCOHTi4qeaKhiJpzXwhWk8Fc" class="testimony__position">Daniel Betancur</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimony__card">
+                        <img src="/portafolio/img/oster.jpg" class="testimony_img">
+                        <div class="testimony__copy">
+                            <i class='bx bxl-apple' ></i>
+                            <div class="testimony__info">
+                                <h3 class="testimony__name">Reto Oster</h3>
+                                <a href="https://www.facebook.com/watch/?v=544850993429619" class="testimony__position">Sabores de <span class="co">Co</span><span class="lom">lom</span><span class="bia">bia</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimony__card">
+                        <img src="/portafolio/img/bavaria.jpg" class="testimony_img">
+                        <div class="testimony__copy">
+                            <i class='bx bxl-apple' ></i>
+                            <div class="testimony__info">
+                                <h3 class="testimony__name">Club Colombia</h3>
+                                <a href="https://www.clubcolombia.com.co/eterno" class="testimony__position">Reforestando el amazonas</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="testimony__card">
+                        <div class="testimony_text">
+                            <img src="img/icons8-logo-de-google.svg" class="google__logo">
+                            <p class="testimony__history">Desde que empezamos a trabajar con NatureDesign comenzamos a obtener resultados increibles. Ahora mi vida es tal cual la soñe</p>
+                            <div class="testimony__copy testimony--modifier">
+                                <img src="img/5.png" class="testimony__logo logo--picture">
+                                <div class="testimony__info">
+                                    <h3 class="testimony__name">Gabriela Aguiar</h3>
+                                    <p class="testimony__position">Directora de Google Mexico</p>
+                                </div>
+                            </div>
+                        </div> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- Seccion de envio de email mediante un boton comienza hoy -->
+        <section class="emailcontainer container--modifier" id="contacto">
+            <h2 class="subtitle subtitle--modifier">Tu mejor opcion para realizar tus sueños<span class="point">.</span></h2>
+            <p class="copy__section copy__section--modifier">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, et dolore id necessitatibus quibusdam rem accusamus fugiat doloremque voluptatibus eius!</p>
+            
+            <div class="check">
+                <div class="check__item">
+                    <i class='bx bx-check' ></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+200</p>
+                        <p class="check__copy">Proyectos exitosos</p>
+                    </div>
+                </div>
+
+                <div class="check__item">
+                    <i class='bx bx-check' ></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+200</p>
+                        <p class="check__copy">Proyectos exitosos</p>
+                    </div>
+                </div>
+
+                <div class="check__item">
+                    <i class='bx bx-check' ></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+200</p>
+                        <p class="check__copy">Proyectos exitosos</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <form class="newsletter">
+                <input type="text" class="newsletter__input" placeholder="Ingresa tu email">
+                <input type="submit" class="newsletter__submit" value="Comienza hoy">
+            </form>
+        </section>
+    </main>
+    <!-- Zona de pie de pagina con links para descargar app y seccion trabaja con nosotros -->
+    <footer class="footer">
+        <!-- Contenedor que alberga la zona de descarga y trabaja con nosotros -->
+        <div class="container footer__caption">
+            <!-- Zona de descarga de aplicaciones -->
+            <section class="download">
+                <h3 class="title__footer">Descarga nuestra App</h3>
+                <div class="download__app">
+                    <div class="download__item">
+                        <i class='bx bxl-apple download__logo' ></i>
+                        <h4 class="download__title">App Store</h4>
+                    </div>
+                    <div class="download__item">
+                        <i class='bx bxl-play-store download__logo' ></i>
+                        <h4 class="download__title">Play Store</h4>
+                    </div>
+                </div>
+                <div class="footer__copy">
+                    <p class="copyright">DanielBG &copy; 2023 Todos los derechos reservados .</p>
+                    <a href="#" class="politica__privacidad politica__privacidad--margin">Politica de privacidad</a>
+                    <a href="#" class="politica__privacidad ">Terminos y condiciones</a>
+                </div>
+            </section>
+            <!-- seccion trabaja con nosotros y redes sociales -->
+            <section class="get-email">
+                <h3 class="title__footer">¿Estás listo para trabajar con nosotros?</h3>
+                <form class="newsletter newsletter--modifier">
+                    <input type="text" class="newsletter__input" placeholder="Ingresa tu email">
+                    <input type="submit" class="newsletter__submit" value="Comienza hoy">
+                </form>
+                <div class="socialmedia">
+                    <p class="socialmedia__legend">Siguenos en:</p>
+                    <i class='socialmedia__icon bx bxl-facebook-circle'></i>
+                    <i class='socialmedia__icon bx bxl-linkedin-square'></i>                                                                                                        
+                    <i class='socialmedia__icon bx bxl-twitter' ></i>   
+                    <i class='socialmedia__icon bx bxl-instagram' ></i>
+                    <i class='socialmedia__icon bx bxl-github' ></i>  
+                </div>
+            </section>
+        </div>
+<!-- Parte inferior de la pagina donde se indica email, marca, zona de contacto -->
+        <div class="contact" id="cita">
+            <div class="item__contact">
+                <i class='bx bx-copyright contact__icon' ></i>
+                <h3 class="contact__title">@betangilg</h3>
+            </div>
+            <div class="item__contact">
+                <i class='bx bx-mail-send contact__icon' ></i>
+                <h3 class="contact__title">betangil238@hotmail.com</h3>
+            </div>
+            <div class="item__contact">
+                <i class='bx bxs-edit-location contact__icon' ></i>
+                <h3 class="contact__title">Paseos de la reforma</h3>
+            </div>
+            <div class="item__contact item__contact--gold">
+                <i class='bx bxs-chat contact__icon contact__icon--modifier' ></i>
+                <h3 class="contact__title">Contactanos ahora</h3>
+            </div>
+        </div>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </footer>
+</body>
+</html>

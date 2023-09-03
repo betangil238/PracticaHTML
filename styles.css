@@ -1,0 +1,101 @@
+
+:root{
+    --gold1: #f4bd76;
+    --gold2: #f6cd8f;
+    --gray: #ffffff80;
+    --gray2: #f7d9d990;
+    --black1: #1a1b1f;
+    --black2: #30353b;
+    /* Las sombras se les especifica arriba,derecha,izquierda y abajo, el ultimo es el difuminado */
+    --shadow: 0 0.9px 6px;
+    --color_shadow: #000033;
+}
+body{
+    font-family: Bebas,sans-serif ;
+    background: linear-gradient(180deg, var(--gold2) 0%, var(--black1) 100%);
+}
+h1{
+    size: 20px;
+    text-align: center;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Esta propiedad oculta los elementos */
+    overflow: hidden;
+    padding: 100px 0;
+    height: auto;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.card{
+    width: 30%;
+    padding: 30px 0;
+    overflow: hidden;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    border-radius: 10px;
+    position: relative;
+    text-align: right;
+    margin-bottom: 60px;
+    /* Aplica una sombra al elemento utilizando la propiedad box-shadow */
+    box-shadow: 0 0 6px var(--color_shadow);
+
+   /* - 0 0: Desplazamiento horizontal y vertical de la sombra, en este caso, no hay desplazamiento (sombra centrada).
+   - 6px: Radio de difuminado de la sombra, creando un efecto suave en un área de 6 píxeles alrededor del elemento.
+   - var(--color_shadow): Color de la sombra obtenido de la variable CSS --color_shadow. */
+}
+.card__img{
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px;
+    margin-right: 10px;
+    /* display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; */
+}
+
+.cards__text{
+    text-align: left;
+    width: 90%;
+    margin:0 auto;
+}
+
+.card__list{
+    color: var(--gold2);
+    font-weight: 700;
+    /* Establece márgenes en las direcciones superior, derecha, inferior e izquierda del elemento */
+    margin: 25px 0 12px;
+
+   /* - 25px: Margen superior de 25 píxeles.
+   - 0: No se aplican márgenes en los lados derecho e izquierdo.
+   - 12px: Margen inferior de 12 píxeles. */
+    font-size: 18px;
+}
+
+.card__title{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+
+.card__button{
+    display: block;
+    background: linear-gradient(180deg, #F7CE90 0%, #F4BD76 100%);
+    border-radius: 6px;
+    text-decoration: none;
+    width: 100%;
+    color: var(--black1);
+    font-weight: 700;
+    text-align: center;
+    padding: 12px 0;
+}
